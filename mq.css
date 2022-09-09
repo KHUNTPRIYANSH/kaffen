@@ -1,0 +1,248 @@
+/*Small devices (landscape phones, 576px and up)*/
+/* @media (max-width: 576px) {
+  .row {
+    flex-direction: column;
+  }
+  .s-nav {
+    display: none !important;
+  }
+  .bar {
+    display: inline-block;
+  }
+  .home {
+    width: 100vw !important;
+  }
+} */
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 925px) {
+  .row {
+    flex-direction: column;
+  }
+  .m-right .btn {
+    display: none;
+  }
+  .m-menu {
+    display: none;
+  }
+
+  .s-nav {
+    display: none !important;
+  }
+  .m-nav {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    flex-direction: row !important;
+  }
+  .m-right {
+    flex-direction: row !important;
+  }
+  .m-right div a i {
+    font-size: 2rem;
+  }
+  main {
+    height: 100vh;
+    width: 100vw;
+    background: url('imgs/GAL5.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    /* background-size:; */
+    background-attachment: fixed !important;
+    background-position: top 100px !important;
+  }
+
+  .logo img {
+    height: 30px !important;
+    cursor: pointer;
+  }
+  .cart a i,
+  .bar a i {
+    font-size: 22px !important;
+  }
+  .m-right {
+    margin-right: 25px;
+  }
+  .c-2 {
+    font-size: 6rem;
+    text-align: center;
+  }
+  main .content {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 20vh;
+    padding-left: 0;
+  }
+  /*---------------about--------------*/
+  .about {
+    flex-direction: column;
+    padding: 8vh 10vw;
+  }
+  .about .right img {
+    width: 80vw;
+  }
+  .card {
+    flex-direction: row;
+    font-size: 1rem;
+    margin: 25px 0 0 0;
+  }
+  /*===============service================*/
+  .service .s {
+    width: 80vw;
+    height: 60vw;
+  }
+  .service {
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+  /*=================menu==============*/
+  .products .col .p-1,
+  .p-2,
+  .p-3 {
+    flex-direction: row !important;
+  }
+  .menu {
+    padding: 50px 25px;
+  }
+  .products {
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  .m-pic {
+    height: 30vw;
+  }
+  .products .info {
+    align-items: flex-start;
+  }
+  .products .info big,
+  .products .info .brow {
+    font-size: 1.3rem;
+  }
+  .products .info .s-title {
+    font-size: 1rem !important;
+    /* align-items: flex-start;
+     */
+    text-align: left;
+  }
+  .products .col:nth-child(2) {
+    margin-top: 50px;
+  }
+  /*====================didi===============*/
+  .didi {
+    padding: 50px 25px !important;
+    gap: 50px;
+    padding-bottom: 75px !important;
+  }
+  .didi .left {
+    /* background-color: red; */
+    height: 65vh !important;
+    width: 90vw !important;
+    overflow: hidden;
+    box-shadow: 0 0 25px 5px rgb(52, 32, 4);
+    border: 1px solid #d48a4d;
+    /* border-radius: 18px; */
+  }
+  .didi .left video {
+    height: 130%;
+    width: 100%;
+  }
+  .didi .c-1 {
+    flex-direction: row;
+  }
+  .didi .btn {
+    margin: auto;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  section {
+    width: 100vw !important;
+    overflow-x: hidden;
+  }
+  .glass {
+    text-align: center;
+  }
+  .post {
+    gap: 50px;
+  }
+  .post .overlay-txt {
+    position: relative;
+    top: 310px;
+    /* left: 10px; */
+    padding: 0 25px;
+  }
+  .feedback .swiper {
+    width: 70vw;
+    height: 55vh;
+    margin-top: 10vh;
+
+    /* overflow-x: hidden !important; */
+  }
+  .review {
+    gap: 13px !important;
+    padding: 15px 20px;
+  }
+  .feedback .swiper .s-title {
+    font-size: 1rem !important;
+  }
+  .slider {
+    overflow-x: hidden !important;
+    padding-top: 0;
+  }
+  .slider .swiper-slide {
+    width: 230px !important;
+    height: 350px !important;
+    overflow-x: hidden !important;
+  }
+  .num {
+    gap: 50px;
+  }
+  .rr {
+    flex-direction: row;
+  }
+  .f-1 img {
+    height: 5vh;
+  }
+  footer .f-1 {
+    margin: 50px 0;
+  }
+  .f-3 .icon {
+    display: none;
+  }
+  .f-2,
+  .f-4 {
+    display: none;
+  }
+}
+@media (min-width: 925px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 925px) {
+  .bar {
+    display: none !important;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  section {
+    width: 100vw !important;
+    overflow-x: hidden;
+  }
+  .invis-menu {
+    opacity: 0;
+    right: -100vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  section {
+    width: 100vw !important;
+  }
+}
