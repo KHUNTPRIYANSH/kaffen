@@ -152,6 +152,25 @@ section {
 .home main .content {
   background: transparent !important;
 }
+
+/*================== Social-icons ================*/
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-instagram:hover {
+  color: #cd486b;
+}
+
+.fa-youtube-play:hover {
+  color: #FF0000;
+}
+
 /*================== header - main ================*/
 main {
   /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
