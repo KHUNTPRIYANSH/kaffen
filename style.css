@@ -35,6 +35,17 @@
   border-radius: 13px;
   box-shadow: 0 0 100px rgb(78, 37, 11) !important;
 }
+::-webkit-scrollbar-thumb:hover {
+  /* background-color: #3bb78f; */
+  background: #eca36e; /* fallback for old browsers */
+  background: linear-gradient(TO TOP, rgb(230, 145, 92), rgb(209, 156, 82));
+  width: 0;
+  height: 35%;
+  transform: 0.5 ease;
+  cursor: pointer;
+  border-radius: 13px;
+  box-shadow: 0 0 100px rgb(78, 37, 11) !important;
+}
 body {
   overflow-x: hidden; /* Hide scrollbars */
 }
